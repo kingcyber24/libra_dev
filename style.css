@@ -1,0 +1,46 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: black; 
+}
+/*nav left style*/
+.nav-left {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.nav-left img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+.nav-right ul li{
+    display: inline-block;
+}
+.nav-right li a {
+    padding: 12px;
+    text-decoration: none;
+    color: aliceblue;
+}
