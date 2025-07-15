@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+html,
+body {
+    background-image: url('../images/pexels-mo-eid-1268975-10643964.jpg');
+    
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #000;
+    height: 74px;
+
+  
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  
+}
+/*nav left style*/
+.nav-left {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+.nav-left h6{
+    font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: aliceblue;
+     font-size: 1.2rem 
+}
+.nav-left img {
+    height: 45px;
+    width: 45px;
+    background-color:black;
+    border-radius: 50px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+.nav-right ul li{
+    display: inline-block;
+}
+.nav-right li a {
+    padding: 12px;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    background-color: rgb(44, 41, 37);
+    border-radius: 6px;
+}
+.nav-button{
+    background-color: white;
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+/*profile styling*/
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile img{
+    margin-top: 4px;
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    z-index: 999;
+    
+   
+}
+.hero-section{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60vh;
+}
+.hero-wrapper{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bio{
+    height: 300px;
+    background-color: aliceblue;
+     margin-top: -20px;
+     border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.bio p{
+    padding: 12px 6px 12px 6px;
+    margin: 6px 12px;
+}
